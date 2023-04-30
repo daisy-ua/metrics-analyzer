@@ -1,6 +1,109 @@
 import ast
 
 
+def analyze_metrics(classes: list[ast.ClassDef]):
+    hierarchy_classes = {}
+    for cls in classes:
+        hierarchy_classes[cls.name] = cls
+
+    output = []
+
+    max_dit = 0
+    total_noc = 0
+
+    m_total = 0
+    m_hidden = 0
+    m_overriden = 0
+    m_not_overriden = 0
+    m_original = 0
+
+    a_total = 0
+    a_hidden = 0
+    a_original = 0
+    a_not_overriden = 0
+
+    for cls in classes:
+        dit = calculate_dit(cls, hierarchy_classes)
+        noc = calculate_noc(cls, classes)
+        mood = calculate_mood(cls, hierarchy_classes)
+
+        if dit > max_dit:
+            max_dit = dit
+        total_noc += noc
+
+        m_not_overriden += mood.get('m-not-overriden')
+        m_total += mood.get('m-total')
+        m_hidden += mood.get('m-hidden')
+        m_overriden += mood.get('m-overriden')
+        m_original += mood.get('m-original') * noc
+
+        a_total += mood.get('a-total')
+        a_hidden += mood.get('a-hidden')
+        a_original += mood.get('a-class-only')
+        a_not_overriden += mood.get('a-not-overriden')
+
+        mif = calculate_inheritance_factor(
+            mood.get('m-not-overriden'), mood.get('m-total'))
+        mhf = calculate_hidding_factor(
+            mood.get('m-hidden'), mood.get('m-original'))
+        ahf = calculate_hidding_factor(
+            mood.get('a-hidden'), mood.get('a-class-only'))
+        aif = calculate_inheritance_factor(
+            mood.get('a-not-overriden'), mood.get('a-total'))
+        pof = calculate_polymorphism_object_factor(
+            mood.get('m-overriden'), mood.get('m-original'), noc)
+
+        output.append({
+            'cls': cls.name,
+            'dit': dit,
+            'noc': noc,
+            'mif': mif,
+            'mhf': mhf,
+            'aif': aif,
+            'ahf': ahf,
+            'pof': pof
+        })
+
+    mif = calculate_inheritance_factor(m_not_overriden, m_total)
+    mhf = calculate_hidding_factor(m_hidden, m_original)
+    ahf = calculate_hidding_factor(a_hidden, a_original)
+    aif = calculate_inheritance_factor(a_not_overriden, a_total)
+    pof = calculate_polymorphism_object_factor(
+        m_overriden, m_original, total_noc)
+
+    output.append({
+        'cls': "--Total--",
+        'dit': max_dit,
+        'noc': total_noc,
+        'mif': mif,
+        'mhf': mhf,
+        'aif': aif,
+        'ahf': ahf,
+        'pof': pof
+    })
+
+    return output
+
+
+def calculate_inheritance_factor(not_overriden, total):
+    if total == 0:
+        return 0
+    return round(not_overriden / total, 2)
+
+
+def calculate_hidding_factor(hidden, total):
+    if total == 0:
+        return 0
+    return round(hidden / total, 2)
+
+
+def calculate_polymorphism_object_factor(overriden, original, children):
+    divide = original * children
+    if divide == 0:
+        return 0
+    return round(overriden / divide, 2)
+
+
 def calculate_dit(cls: ast.ClassDef, hierarchy_classes) -> int:
     bases = cls.bases[:]
     while bases:
