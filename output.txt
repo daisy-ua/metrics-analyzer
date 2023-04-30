@@ -1,0 +1,2295 @@
+cls: Shell
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.38
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: MiddlewareManager
+dit: 0
+noc: 4
+mif: 0.0
+mhf: 0.5
+aif: 0.0
+ahf: 0.0
+pof: 0.0
+
+cls: BaseItemExporter
+dit: 0
+noc: 8
+mif: 0.0
+mhf: 0.33
+aif: 0.0
+ahf: 0.0
+pof: 0.0
+
+cls: JsonLinesItemExporter
+dit: 1
+noc: 0
+mif: 0.75
+mhf: 0
+aif: 0.71
+ahf: 0.0
+pof: 0
+
+cls: JsonItemExporter
+dit: 1
+noc: 0
+mif: 0.2
+mhf: 1.0
+aif: 0.62
+ahf: 0.0
+pof: 0
+
+cls: XmlItemExporter
+dit: 1
+noc: 0
+mif: 0.14
+mhf: 1.0
+aif: 0.62
+ahf: 0.0
+pof: 0
+
+cls: CsvItemExporter
+dit: 1
+noc: 0
+mif: 0.29
+mhf: 1.0
+aif: 0.5
+ahf: 0.0
+pof: 0
+
+cls: PickleItemExporter
+dit: 1
+noc: 0
+mif: 0.75
+mhf: 0
+aif: 0.71
+ahf: 0.0
+pof: 0
+
+cls: MarshalItemExporter
+dit: 1
+noc: 0
+mif: 0.75
+mhf: 0
+aif: 0.83
+ahf: 0.0
+pof: 0
+
+cls: PprintItemExporter
+dit: 1
+noc: 0
+mif: 0.75
+mhf: 0
+aif: 0.83
+ahf: 0.0
+pof: 0
+
+cls: PythonItemExporter
+dit: 1
+noc: 0
+mif: 0.29
+mhf: 1.0
+aif: 1.0
+ahf: 0
+pof: 0
+
+cls: ResponseTypes
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: NotConfigured
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: _InvalidOutput
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: IgnoreRequest
+dit: 0
+noc: 1
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: DontCloseSpider
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: CloseSpider
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: StopDownload
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DropItem
+dit: 0
+noc: 1
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: NotSupported
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: UsageError
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ScrapyDeprecationWarning
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: ContractFail
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: BaseDupeFilter
+dit: 0
+noc: 1
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0.0
+
+cls: RFPDupeFilter
+dit: 1
+noc: 0
+mif: 0.14
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: MailSender
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.67
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: Field
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: ItemMeta
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: Item
+dit: 1
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.5
+pof: 0
+
+cls: CachingThreadedResolver
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.25
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: HostResolution
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: _CachingResolutionReceiver
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: CachingHostnameResolver
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: RobotParser
+dit: 0
+noc: 4
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0.0
+
+cls: PythonRobotParser
+dit: 1
+noc: 0
+mif: 0.0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ReppyRobotParser
+dit: 1
+noc: 0
+mif: 0.0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: RerpRobotParser
+dit: 1
+noc: 0
+mif: 0.0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ProtegoRobotParser
+dit: 1
+noc: 0
+mif: 0.0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: StatsCollector
+dit: 0
+noc: 2
+mif: 0.0
+mhf: 0.09
+aif: 0
+ahf: 0
+pof: 0.0
+
+cls: MemoryStatsCollector
+dit: 1
+noc: 0
+mif: 0.91
+mhf: 1.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: DummyStatsCollector
+dit: 1
+noc: 0
+mif: 0.4
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: Crawler
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.5
+aif: 0.0
+ahf: 1.0
+pof: 0
+
+cls: CrawlerRunner
+dit: 0
+noc: 1
+mif: 0.0
+mhf: 0.38
+aif: 0.0
+ahf: 0.0
+pof: 0.0
+
+cls: CrawlerProcess
+dit: 1
+noc: 0
+mif: 0.45
+mhf: 0.83
+aif: 0.86
+ahf: 0.0
+pof: 0
+
+cls: SpiderLoader
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.43
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ISpiderLoader
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: ExtensionManager
+dit: 1
+noc: 0
+mif: 0.8
+mhf: 1.0
+aif: 0.5
+ahf: 0.0
+pof: 0
+
+cls: Link
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.2
+pof: 0
+
+cls: SignalManager
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: LogFormatter
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: ScrapyPriorityQueue
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DownloaderInterface
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.33
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DownloaderAwarePriorityQueue
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ScrapyArgumentParser
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 1.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: UrlContract
+dit: 1
+noc: 0
+mif: 0.67
+mhf: 0
+aif: 0.8
+ahf: 0.0
+pof: 0
+
+cls: CallbackKeywordArgumentsContract
+dit: 1
+noc: 0
+mif: 0.67
+mhf: 0
+aif: 0.8
+ahf: 0.0
+pof: 0
+
+cls: ReturnsContract
+dit: 1
+noc: 0
+mif: 0.75
+mhf: 0.0
+aif: 0.5
+ahf: 0.0
+pof: 0
+
+cls: ScrapesContract
+dit: 1
+noc: 0
+mif: 0.75
+mhf: 0.0
+aif: 0.8
+ahf: 0.0
+pof: 0
+
+cls: Contract
+dit: 0
+noc: 4
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0.0
+
+cls: ContractsManager
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.2
+aif: 0
+ahf: 0
+pof: 0
+
+cls: SitemapSpider
+dit: 2
+noc: 0
+mif: 0.64
+mhf: 0.67
+aif: 0.25
+ahf: 0.0
+pof: 0
+
+cls: Rule
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 1.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: CrawlSpider
+dit: 2
+noc: 0
+mif: 0.41
+mhf: 0.78
+aif: 1.0
+ahf: 0
+pof: 0
+
+cls: InitSpider
+dit: 2
+noc: 0
+mif: 0.7
+mhf: 0.0
+aif: 1.0
+ahf: 0
+pof: 0
+
+cls: XMLFeedSpider
+dit: 2
+noc: 0
+mif: 0.53
+mhf: 0.43
+aif: 0.4
+ahf: 0.0
+pof: 0
+
+cls: CSVFeedSpider
+dit: 2
+noc: 0
+mif: 0.62
+mhf: 0.2
+aif: 0.4
+ahf: 0.0
+pof: 0
+
+cls: Spider
+dit: 1
+noc: 7
+mif: 0.0
+mhf: 0.2
+aif: 0
+ahf: 0
+pof: 0.0
+
+cls: Headers
+dit: 1
+noc: 0
+mif: 0.19
+mhf: 0.11
+aif: 0.33
+ahf: 0.0
+pof: 0
+
+cls: CookieJar
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.11
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: _DummyLock
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: WrappedRequest
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: WrappedResponse
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: TextResponse
+dit: 2
+noc: 2
+mif: 0.19
+mhf: 0.73
+aif: 0.6
+ahf: 0.0
+pof: 0.27
+
+cls: _InvalidSelector
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: HtmlResponse
+dit: 3
+noc: 0
+mif: 1.0
+mhf: 0
+aif: 1.0
+ahf: 0
+pof: 0
+
+cls: XmlResponse
+dit: 3
+noc: 0
+mif: 1.0
+mhf: 0
+aif: 1.0
+ahf: 0
+pof: 0
+
+cls: Response
+dit: 1
+noc: 1
+mif: 0.0
+mhf: 0.29
+aif: 0.0
+ahf: 0.0
+pof: 0.0
+
+cls: JsonRequest
+dit: 2
+noc: 0
+mif: 0.67
+mhf: 0.5
+aif: 0.94
+ahf: 0.0
+pof: 0
+
+cls: XmlRpcRequest
+dit: 2
+noc: 0
+mif: 1.0
+mhf: 0
+aif: 1.0
+ahf: 0
+pof: 0
+
+cls: FormRequest
+dit: 2
+noc: 0
+mif: 0.88
+mhf: 0.0
+aif: 0.94
+ahf: 0.0
+pof: 0
+
+cls: Request
+dit: 1
+noc: 3
+mif: 0.0
+mhf: 0.36
+aif: 0.0
+ahf: 0.0
+pof: 0.0
+
+cls: BaseSchedulerMeta
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: BaseScheduler
+dit: 0
+noc: 1
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0.0
+
+cls: Scheduler
+dit: 1
+noc: 0
+mif: 0.0
+mhf: 1.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: Slot
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: Scraper
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.5
+aif: 0
+ahf: 0
+pof: 0
+
+cls: Slot
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.25
+aif: 0
+ahf: 0
+pof: 0
+
+cls: ExecutionEngine
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.41
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: SpiderMiddlewareManager
+dit: 1
+noc: 0
+mif: 0.31
+mhf: 0.78
+aif: 0.33
+ahf: 0.0
+pof: 0
+
+cls: DownloaderMiddlewareManager
+dit: 1
+noc: 0
+mif: 0.57
+mhf: 0.67
+aif: 0.5
+ahf: 0.0
+pof: 0
+
+cls: ScrapyClientContextFactory
+dit: 0
+noc: 1
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0.0
+
+cls: BrowserLikeContextFactory
+dit: 1
+noc: 0
+mif: 0.75
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: AcceptableProtocolsContextFactory
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: ScrapyClientTLSOptions
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 1.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: ScrapyHTTPPageGetter
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ScrapyHTTPClientFactory
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.33
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: Slot
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: Downloader
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.67
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: S3DownloadHandler
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ReceivedDataProtocol
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.33
+pof: 0
+
+cls: FTPDownloadHandler
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.4
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: H2DownloadHandler
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ScrapyH2Agent
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.75
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: HTTP11DownloadHandler
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: TunnelError
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: TunnelingTCP4ClientEndpoint
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: TunnelingAgent
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 1.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ScrapyProxyAgent
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ScrapyAgent
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.86
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: _RequestBodyProducer
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: _ResponseReader
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.25
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: FileDownloadHandler
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: HTTP10DownloadHandler
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.33
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DataURIDownloadHandler
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DownloadHandlers
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.75
+aif: 0
+ahf: 0
+pof: 0
+
+cls: InactiveStreamClosed
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: InvalidHostname
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: StreamCloseReason
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: Stream
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.25
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: H2ConnectionPool
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.4
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: H2Agent
+dit: 0
+noc: 1
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0.0
+
+cls: ScrapyProxyH2Agent
+dit: 1
+noc: 0
+mif: 0.33
+mhf: 0
+aif: 0.8
+ahf: 0.0
+pof: 0
+
+cls: InvalidNegotiatedProtocol
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: RemoteTerminatedConnection
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: MethodNotAllowed405
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: H2ClientProtocol
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.27
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: H2ClientFactory
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: LogStats
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DummyPolicy
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: RFC2616Policy
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.56
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DbmCacheStorage
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.2
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: FilesystemCacheStorage
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.33
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: AutoThrottle
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.88
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: MemoryDebugger
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ItemFilter
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: IFeedStorage
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: BlockingFeedStorage
+dit: 0
+noc: 3
+mif: 0.0
+mhf: 0.33
+aif: 0
+ahf: 0
+pof: 0.0
+
+cls: StdoutFeedStorage
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: FileFeedStorage
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: S3FeedStorage
+dit: 1
+noc: 0
+mif: 0.5
+mhf: 0.5
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: GCSFeedStorage
+dit: 1
+noc: 0
+mif: 0.5
+mhf: 0.5
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: FTPFeedStorage
+dit: 1
+noc: 0
+mif: 0.5
+mhf: 0.5
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: FeedSlot
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: FeedExporter
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.81
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: GzipPlugin
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: Bz2Plugin
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: LZMAPlugin
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: PostProcessingManager
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.33
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: TelnetConsole
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.2
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: MemoryUsage
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.38
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: CloseSpider
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: SpiderState
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: CoreStats
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: StackTraceDump
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.33
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: Debugger
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 1.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: StatsMailer
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: SelectorList
+dit: 1
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: Selector
+dit: 1
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.33
+pof: 0
+
+cls: FileException
+dit: 0
+noc: 1
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: FSFilesStore
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.5
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: S3FilesStore
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.5
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: GCSFilesStore
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.5
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: FTPFilesStore
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: FilesPipeline
+dit: 1
+noc: 1
+mif: 0.23
+mhf: 0.25
+aif: 0.44
+ahf: 0.0
+pof: 1.5
+
+cls: NoimagesDrop
+dit: 1
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: ImageException
+dit: 1
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: ImagesPipeline
+dit: 2
+noc: 0
+mif: 0.44
+mhf: 0.0
+aif: 0.48
+ahf: 0.0
+pof: 0
+
+cls: MediaPipeline
+dit: 0
+noc: 1
+mif: 0.0
+mhf: 0.5
+aif: 0.0
+ahf: 0.0
+pof: 0.0
+
+cls: ItemPipelineManager
+dit: 1
+noc: 0
+mif: 0.57
+mhf: 0.67
+aif: 0.5
+ahf: 0.0
+pof: 0
+
+cls: RetryMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.25
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: HttpCacheMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.14
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DecompressionMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.8
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DefaultHeadersMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DownloadTimeoutMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: AjaxCrawlMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.33
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DownloaderStats
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: CookiesMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.62
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: RobotsTxtMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.43
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: HttpProxyMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.6
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: BaseRedirectMiddleware
+dit: 0
+noc: 2
+mif: 0.0
+mhf: 0.67
+aif: 0.0
+ahf: 0.0
+pof: 0.0
+
+cls: RedirectMiddleware
+dit: 1
+noc: 0
+mif: 0.5
+mhf: 0.0
+aif: 1.0
+ahf: 0
+pof: 0
+
+cls: MetaRefreshMiddleware
+dit: 1
+noc: 0
+mif: 0.5
+mhf: 0.0
+aif: 0.4
+ahf: 0.0
+pof: 0
+
+cls: HttpCompressionMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.25
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: HttpAuthMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: UserAgentMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ScrapyJSONEncoder
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ScrapyJSONDecoder
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: Sitemap
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DefaultSpider
+dit: 2
+noc: 0
+mif: 1.0
+mhf: 0
+aif: 0.67
+ahf: 0.0
+pof: 0
+
+cls: object_ref
+dit: 0
+noc: 6
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 1.0
+pof: 0
+
+cls: SiteTest
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: NoMetaRefreshRedirect
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: Root
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ProcessTest
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.5
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: TestProcessProtocol
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: RequestFingerprinter
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: MutableChain
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: MutableAsyncChain
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: _AsyncCooperatorAdapter
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 1.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: TopLevelFormatter
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: StreamLogger
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: LogCounterHandler
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DataAction
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: CurlParser
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: CaselessDict
+dit: 0
+noc: 1
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.33
+pof: 0.0
+
+cls: LocalCache
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: LocalWeakReferencedCache
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: SequenceExclude
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: _StreamReader
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.67
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: CallLaterOnce
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: LxmlParserLinkExtractor
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.8
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: LxmlLinkExtractor
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.6
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: Command
+dit: 1
+noc: 1
+mif: 0.3
+mhf: 0.5
+aif: 0.33
+ahf: 0.0
+pof: 2.5
+
+cls: Command
+dit: 1
+noc: 1
+mif: 0.27
+mhf: 1.0
+aif: 0.5
+ahf: 0.0
+pof: 1.67
+
+cls: Command
+dit: 0
+noc: 1
+mif: 0.0
+mhf: 0.25
+aif: 0
+ahf: 0
+pof: 0.0
+
+cls: Command
+dit: 1
+noc: 1
+mif: 0.31
+mhf: 0.8
+aif: 0.33
+ahf: 0.0
+pof: 0.8
+
+cls: Command
+dit: 1
+noc: 1
+mif: 0.45
+mhf: 0.67
+aif: 0.33
+ahf: 0.0
+pof: 1.0
+
+cls: TextTestResult
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: Command
+dit: 1
+noc: 1
+mif: 0.5
+mhf: 0
+aif: 0.33
+ahf: 0.0
+pof: 0
+
+cls: Command
+dit: 1
+noc: 1
+mif: 0.75
+mhf: 0
+aif: 0.33
+ahf: 0.0
+pof: 0
+
+cls: Command
+dit: 2
+noc: 1
+mif: 0.5
+mhf: 0
+aif: 0.33
+ahf: 0.0
+pof: 0
+
+cls: Command
+dit: 2
+noc: 1
+mif: 0.62
+mhf: 0
+aif: 0.5
+ahf: 0.0
+pof: 0
+
+cls: Command
+dit: 2
+noc: 1
+mif: 0.12
+mhf: 0.06
+aif: 0.25
+ahf: 0.0
+pof: 0.29
+
+cls: Command
+dit: 1
+noc: 1
+mif: 0.5
+mhf: 0
+aif: 0.33
+ahf: 0.0
+pof: 0
+
+cls: Command
+dit: 1
+noc: 1
+mif: 0.44
+mhf: 1.0
+aif: 0.33
+ahf: 0.0
+pof: 4.0
+
+cls: Command
+dit: 1
+noc: 1
+mif: 0.5
+mhf: 0
+aif: 0.67
+ahf: 0.0
+pof: 0
+
+cls: ScrapyCommand
+dit: 0
+noc: 11
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0.0
+
+cls: BaseRunSpiderCommand
+dit: 1
+noc: 3
+mif: 0.75
+mhf: 0
+aif: 1.0
+ahf: 0
+pof: 0
+
+cls: ScrapyHelpFormatter
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.5
+aif: 0
+ahf: 0
+pof: 0
+
+cls: Command
+dit: 1
+noc: 1
+mif: 0.75
+mhf: 0
+aif: 0.67
+ahf: 0.0
+pof: 0
+
+cls: _BenchServer
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: _BenchSpider
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ItemLoader
+dit: 0
+noc: 1
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: DepthMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.5
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: OffsiteMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.17
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: URLWarning
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: PortWarning
+dit: 0
+noc: 0
+mif: 0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: UrlLengthMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.33
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: ReferrerPolicy
+dit: 0
+noc: 8
+mif: 0.0
+mhf: 0.0
+aif: 0
+ahf: 0
+pof: 0.0
+
+cls: NoReferrerPolicy
+dit: 1
+noc: 0
+mif: 0.86
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: NoReferrerWhenDowngradePolicy
+dit: 1
+noc: 1
+mif: 0.86
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: SameOriginPolicy
+dit: 1
+noc: 0
+mif: 0.86
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: OriginPolicy
+dit: 1
+noc: 0
+mif: 0.86
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: StrictOriginPolicy
+dit: 1
+noc: 0
+mif: 0.86
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: OriginWhenCrossOriginPolicy
+dit: 1
+noc: 0
+mif: 0.86
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: StrictOriginWhenCrossOriginPolicy
+dit: 1
+noc: 0
+mif: 0.86
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: UnsafeUrlPolicy
+dit: 1
+noc: 0
+mif: 0.86
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: DefaultReferrerPolicy
+dit: 2
+noc: 0
+mif: 1.0
+mhf: 0
+aif: 0
+ahf: 0
+pof: 0
+
+cls: RefererMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.2
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: HttpError
+dit: 1
+noc: 0
+mif: 0
+mhf: 0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: HttpErrorMiddleware
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: SettingsAttribute
+dit: 0
+noc: 0
+mif: 0.0
+mhf: 0.0
+aif: 0.0
+ahf: 0.0
+pof: 0
+
+cls: BaseSettings
+dit: 0
+noc: 1
+mif: 0.0
+mhf: 0.13
+aif: 0.0
+ahf: 0.0
+pof: 0.0
+
+cls: Settings
+dit: 1
+noc: 0
+mif: 1.0
+mhf: 0
+aif: 1.0
+ahf: 0
+pof: 0
+
+cls: --Total--
+dit: 3
+noc: 96
+mif: 0.25
+mhf: 0.5
+aif: 0.27
+ahf: 0.01
+pof: 0.0
+
