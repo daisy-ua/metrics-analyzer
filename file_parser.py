@@ -15,6 +15,12 @@ def parse_module_classes(module_path: str) -> list[ast.ClassDef]:
     return classes
 
 
+def parse_file_classes(file_path: str) -> list[ast.ClassDef]:
+    with open(file_path) as f:
+        classes = get_classes(f.read())
+    return classes
+
+
 def get_python_files(module_path: str) -> list[ast.ClassDef]:
     python_files = []
 

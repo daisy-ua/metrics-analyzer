@@ -1,31 +1,27 @@
 from file_parser import parse_module_classes
 from metrics_analyzer import *
-from file_parser import *
+from file_parser import parse_module_classes, parse_file_classes
+import argparse
+
+
+sample_filename = './sample/sample_input_1.py'
 
 if __name__ == '__main__':
-    module_path = "/home/supervisor/Downloads/scrapy-master/scrapy/core"
-    classes = parse_module_classes(module_path)
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '-f', default=sample_filename, help='File to analyze')
+    parser.add_argument('-d', help='Directory to analyze')
 
-    # with open("/home/supervisor/Downloads/test.py") as f:
-    #     classes = get_classes(f.read())
+    args = parser.parse_args()
 
-    hierarchy_classes = {}
-    for cls in classes:
-        hierarchy_classes[cls.name] = cls
+    if args.d == None:
+        classes = parse_file_classes(args.f)
+    else:
+        classes = parse_module_classes(args.d)
 
-    max_dit = 0
-    for cls in classes:
-        dit = calculate_dit(cls, hierarchy_classes)
-        if dit > max_dit:
-            max_dit = dit
-
-
-        noc = calculate_noc(cls, classes)
-        # print(f'{cls.name} : {noc}')
-
-
-        mood = calculate_mood(cls, hierarchy_classes)
-        
-
-    # print(max_dit)
-
+    output = analyze_metrics(classes)
+    with open('output.txt', 'w') as f:
+        for o in output:
+            for k, v in o.items():
+                f.write('%s: %s\n' % (k, v))
+            f.write('\n')
