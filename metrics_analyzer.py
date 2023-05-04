@@ -8,9 +8,6 @@ def analyze_metrics(classes: list[ast.ClassDef]):
 
     output = []
 
-    max_dit = 0
-    total_noc = 0
-
     m_total = 0
     m_hidden = 0
     m_overriden = 0
@@ -26,10 +23,6 @@ def analyze_metrics(classes: list[ast.ClassDef]):
         dit = calculate_dit(cls, hierarchy_classes)
         noc = calculate_noc(cls, classes)
         mood = calculate_mood(cls, hierarchy_classes)
-
-        if dit > max_dit:
-            max_dit = dit
-        total_noc += noc
 
         m_not_overriden += mood.get('m-not-overriden')
         m_total += mood.get('m-total')
@@ -68,18 +61,13 @@ def analyze_metrics(classes: list[ast.ClassDef]):
     mhf = calculate_hidding_factor(m_hidden, m_original)
     ahf = calculate_hidding_factor(a_hidden, a_original)
     aif = calculate_inheritance_factor(a_not_overriden, a_total)
-    pof = calculate_polymorphism_object_factor(
-        m_overriden, m_original, total_noc)
 
     output.append({
         'cls': "--Total--",
-        'dit': max_dit,
-        'noc': total_noc,
         'mif': mif,
         'mhf': mhf,
         'aif': aif,
         'ahf': ahf,
-        'pof': pof
     })
 
     return output
